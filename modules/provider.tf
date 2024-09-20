@@ -9,3 +9,10 @@ terraform {
 provider "aws" {
   
 }
+terraform {
+  backend "s3" {
+    bucket         = "nareshitterraform21"
+    key            = "path/to/your/statefile"
+    region         = "ap-south-1"
+  }
+}
