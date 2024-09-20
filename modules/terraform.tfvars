@@ -1,3 +1,5 @@
 bucket_name = "s3terrs9866"
 cidr     = "10.0.0.0/16"
 vpc_name = "test"
+ami = "ami-06f855639265b5541"
+instance= "t2.micro"
